@@ -1,5 +1,13 @@
 # Changelog
 
+### [0.1.3](https://www.github.com/googleapis/java-billingbudgets/compare/v0.1.2...v0.1.3) (2020-01-17)
+
+
+### Dependencies
+
+* update core dependencies ([#48](https://www.github.com/googleapis/java-billingbudgets/issues/48)) ([dda7d4f](https://www.github.com/googleapis/java-billingbudgets/commit/dda7d4fa9f954098c9ff4a82903b5efe2e78a0b4))
+* update dependency org.threeten:threetenbp to v1.4.1 ([00cbee5](https://www.github.com/googleapis/java-billingbudgets/commit/00cbee522eb67c4547708a4df6b92250ccca2230))
+
 ### [0.1.2](https://www.github.com/googleapis/java-billingbudgets/compare/v0.1.1...v0.1.2) (2020-01-07)
 
 
