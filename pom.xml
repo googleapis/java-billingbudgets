@@ -124,13 +124,6 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
-      <dependency>
-        <groupId>com.google.auth</groupId>
-        <artifactId>google-auth-library-bom</artifactId>
-        <version>${google.auth.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
 
       <dependency>
         <groupId>com.google.protobuf</groupId>
@@ -274,7 +267,6 @@
           <links>
             <link>https://grpc.io/grpc-java/javadoc/</link>
             <link>https://developers.google.com/protocol-buffers/docs/reference/java/</link>
-            <link>https://googleapis.dev/java/google-auth-library/latest/</link>
             <link>https://googleapis.dev/java/gax/latest/</link>
             <link>https://googleapis.github.io/api-common-java/${google.api-common.version}/apidocs/</link>
           </links>
