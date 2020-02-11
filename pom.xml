@@ -4,7 +4,7 @@
   <groupId>com.google.cloud</groupId>
   <artifactId>google-cloud-billingbudgets-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.2.1</version><!-- {x-version-update:google-cloud-billingbudgets:current} -->
+  <version>0.2.2-SNAPSHOT</version><!-- {x-version-update:google-cloud-billingbudgets:current} -->
   <name>Google Cloud Billing Budgets Parent</name>
   <url>https://github.com/googleapis/java-billingbudgets</url>
   <description>
@@ -63,7 +63,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <github.global.server>github</github.global.server>
     <site.installationModule>google-cloud-billingbudgets-parent</site.installationModule>
-    <google.core.version>1.92.4</google.core.version>
+    <google.core.version>1.92.5</google.core.version>
     <google.api-common.version>1.8.1</google.api-common.version>
     <google.common-protos.version>1.17.0</google.common-protos.version>
     <gax.version>1.53.1</gax.version>
@@ -82,17 +82,17 @@
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>proto-google-cloud-billingbudgets-v1beta1</artifactId>
-        <version>0.2.1</version><!-- {x-version-update:proto-google-cloud-billingbudgets-v1beta1:current} -->
+        <version>0.2.2-SNAPSHOT</version><!-- {x-version-update:proto-google-cloud-billingbudgets-v1beta1:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.api.grpc</groupId>
         <artifactId>grpc-google-cloud-billingbudgets-v1beta1</artifactId>
-        <version>0.2.1</version><!-- {x-version-update:grpc-google-cloud-billingbudgets-v1beta1:current} -->
+        <version>0.2.2-SNAPSHOT</version><!-- {x-version-update:grpc-google-cloud-billingbudgets-v1beta1:current} -->
       </dependency>
       <dependency>
         <groupId>com.google.cloud</groupId>
         <artifactId>google-cloud-billingbudgets</artifactId>
-        <version>0.2.1</version><!-- {x-version-update:google-cloud-billingbudgets:current} -->
+        <version>0.2.2-SNAPSHOT</version><!-- {x-version-update:google-cloud-billingbudgets:current} -->
       </dependency>
 
       <dependency>
