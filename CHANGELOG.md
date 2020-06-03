@@ -1,5 +1,16 @@
 # Changelog
 
+### [0.2.5](https://www.github.com/googleapis/java-billingbudgets/compare/v0.2.4...v0.2.5) (2020-06-03)
+
+
+### Dependencies
+
+* update dependency com.google.api:api-common to v1.9.1 ([#161](https://www.github.com/googleapis/java-billingbudgets/issues/161)) ([78fab78](https://www.github.com/googleapis/java-billingbudgets/commit/78fab78826fbd003c3f816e8033dd9a868a70e0a))
+* update dependency com.google.api.grpc:proto-google-common-protos to v1.18.0 ([#149](https://www.github.com/googleapis/java-billingbudgets/issues/149)) ([cac4577](https://www.github.com/googleapis/java-billingbudgets/commit/cac45771f199eb9a643a36328a170b8cc8d508c6))
+* update dependency com.google.protobuf:protobuf-java to v3.12.0 ([#153](https://www.github.com/googleapis/java-billingbudgets/issues/153)) ([1e10b3f](https://www.github.com/googleapis/java-billingbudgets/commit/1e10b3f03a4152defa20e0808d0713fb948b79aa))
+* update dependency io.grpc:grpc-bom to v1.29.0 ([#141](https://www.github.com/googleapis/java-billingbudgets/issues/141)) ([d4b8795](https://www.github.com/googleapis/java-billingbudgets/commit/d4b87953586dfaa4366bd77e885e80819ec06b21))
+* update dependency org.threeten:threetenbp to v1.4.4 ([#143](https://www.github.com/googleapis/java-billingbudgets/issues/143)) ([f47ccbd](https://www.github.com/googleapis/java-billingbudgets/commit/f47ccbdcdc2e7bb745a3858904755ed32d85108d))
+
 ### [0.2.4](https://www.github.com/googleapis/java-billingbudgets/compare/v0.2.3...v0.2.4) (2020-04-20)
 
 
