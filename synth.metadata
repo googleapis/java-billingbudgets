@@ -11,7 +11,7 @@
       "git": {
         "name": ".",
         "remote": "https://github.com/googleapis/java-billingbudgets.git",
-        "sha": "3eabf80abdeaedc5a0ba029296357856483c7b76"
+        "sha": "1851bcac23fe745800ca271e8569e444f4236eb8"
       }
     },
     {
