@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.3.1](https://www.github.com/googleapis/java-billingbudgets/compare/v0.3.0...v0.3.1) (2020-07-08)
+
+
+### Bug Fixes
+
+* migrate to grpc_service_config ([#194](https://www.github.com/googleapis/java-billingbudgets/issues/194)) ([8fd3008](https://www.github.com/googleapis/java-billingbudgets/commit/8fd30085fef6a2a3f30c6f571bd8848eaea8e81d))
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.8.2 ([#201](https://www.github.com/googleapis/java-billingbudgets/issues/201)) ([31140e9](https://www.github.com/googleapis/java-billingbudgets/commit/31140e9099a1534b92b2bbae6760b5cb0a2c4a31))
+
 ## [0.3.0](https://www.github.com/googleapis/java-billingbudgets/compare/v0.2.4...v0.3.0) (2020-06-22)
 
 
