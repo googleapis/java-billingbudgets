@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.4.2](https://www.github.com/googleapis/java-billingbudgets/compare/v0.4.1...v0.4.2) (2020-09-21)
+
+
+### Dependencies
+
+* update dependency com.google.cloud:google-cloud-shared-dependencies to v0.9.0 ([#230](https://www.github.com/googleapis/java-billingbudgets/issues/230)) ([a4dd8c7](https://www.github.com/googleapis/java-billingbudgets/commit/a4dd8c7aa12b1e02013c56307623456ba10724ce))
+
 ### [0.4.1](https://www.github.com/googleapis/java-billingbudgets/compare/v0.4.0...v0.4.1) (2020-08-11)
 
 
