@@ -22,14 +22,7 @@ import static io.grpc.stub.ClientCalls.futureUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnaryCall;
 import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
 
-/**
- *
- *
- * <pre>
- * BudgetService stores Cloud Billing budgets, which define a
- * budget plan and rules to execute as we track spend against that plan.
- * </pre>
- */
+/** */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler",
     comments = "Source: google/cloud/billing/budgets/v1/budget_service.proto")
@@ -307,75 +300,31 @@ public final class BudgetServiceGrpc {
     return BudgetServiceFutureStub.newStub(factory, channel);
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * BudgetService stores Cloud Billing budgets, which define a
-   * budget plan and rules to execute as we track spend against that plan.
-   * </pre>
-   */
+  /** */
   public abstract static class BudgetServiceImplBase implements io.grpc.BindableService {
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a new budget. See
-     * [Quotas and limits](https://cloud.google.com/billing/quotas)
-     * for more information on the limits of the number of budgets you can create.
-     * </pre>
-     */
+    /** */
     public void createBudget(
         com.google.cloud.billing.budgets.v1.CreateBudgetRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.billing.budgets.v1.Budget> responseObserver) {
       asyncUnimplementedUnaryCall(getCreateBudgetMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a budget and returns the updated budget.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. Budget fields that are not exposed in
-     * this API will not be changed by this method.
-     * </pre>
-     */
+    /** */
     public void updateBudget(
         com.google.cloud.billing.budgets.v1.UpdateBudgetRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.billing.budgets.v1.Budget> responseObserver) {
       asyncUnimplementedUnaryCall(getUpdateBudgetMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Returns a budget.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. When reading from the API, you will not
-     * see these fields in the return value, though they may have been set
-     * in the Cloud Console.
-     * </pre>
-     */
+    /** */
     public void getBudget(
         com.google.cloud.billing.budgets.v1.GetBudgetRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.billing.budgets.v1.Budget> responseObserver) {
       asyncUnimplementedUnaryCall(getGetBudgetMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Returns a list of budgets for a billing account.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. When reading from the API, you will not
-     * see these fields in the return value, though they may have been set
-     * in the Cloud Console.
-     * </pre>
-     */
+    /** */
     public void listBudgets(
         com.google.cloud.billing.budgets.v1.ListBudgetsRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.billing.budgets.v1.ListBudgetsResponse>
@@ -383,13 +332,7 @@ public final class BudgetServiceGrpc {
       asyncUnimplementedUnaryCall(getListBudgetsMethod(), responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes a budget. Returns successfully if already deleted.
-     * </pre>
-     */
+    /** */
     public void deleteBudget(
         com.google.cloud.billing.budgets.v1.DeleteBudgetRequest request,
         io.grpc.stub.StreamObserver<com.google.protobuf.Empty> responseObserver) {
@@ -434,14 +377,7 @@ public final class BudgetServiceGrpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * BudgetService stores Cloud Billing budgets, which define a
-   * budget plan and rules to execute as we track spend against that plan.
-   * </pre>
-   */
+  /** */
   public static final class BudgetServiceStub
       extends io.grpc.stub.AbstractAsyncStub<BudgetServiceStub> {
     private BudgetServiceStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -453,15 +389,7 @@ public final class BudgetServiceGrpc {
       return new BudgetServiceStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a new budget. See
-     * [Quotas and limits](https://cloud.google.com/billing/quotas)
-     * for more information on the limits of the number of budgets you can create.
-     * </pre>
-     */
+    /** */
     public void createBudget(
         com.google.cloud.billing.budgets.v1.CreateBudgetRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.billing.budgets.v1.Budget> responseObserver) {
@@ -471,16 +399,7 @@ public final class BudgetServiceGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a budget and returns the updated budget.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. Budget fields that are not exposed in
-     * this API will not be changed by this method.
-     * </pre>
-     */
+    /** */
     public void updateBudget(
         com.google.cloud.billing.budgets.v1.UpdateBudgetRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.billing.budgets.v1.Budget> responseObserver) {
@@ -490,17 +409,7 @@ public final class BudgetServiceGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Returns a budget.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. When reading from the API, you will not
-     * see these fields in the return value, though they may have been set
-     * in the Cloud Console.
-     * </pre>
-     */
+    /** */
     public void getBudget(
         com.google.cloud.billing.budgets.v1.GetBudgetRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.billing.budgets.v1.Budget> responseObserver) {
@@ -508,17 +417,7 @@ public final class BudgetServiceGrpc {
           getChannel().newCall(getGetBudgetMethod(), getCallOptions()), request, responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Returns a list of budgets for a billing account.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. When reading from the API, you will not
-     * see these fields in the return value, though they may have been set
-     * in the Cloud Console.
-     * </pre>
-     */
+    /** */
     public void listBudgets(
         com.google.cloud.billing.budgets.v1.ListBudgetsRequest request,
         io.grpc.stub.StreamObserver<com.google.cloud.billing.budgets.v1.ListBudgetsResponse>
@@ -529,13 +428,7 @@ public final class BudgetServiceGrpc {
           responseObserver);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes a budget. Returns successfully if already deleted.
-     * </pre>
-     */
+    /** */
     public void deleteBudget(
         com.google.cloud.billing.budgets.v1.DeleteBudgetRequest request,
         io.grpc.stub.StreamObserver<com.google.protobuf.Empty> responseObserver) {
@@ -546,14 +439,7 @@ public final class BudgetServiceGrpc {
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * BudgetService stores Cloud Billing budgets, which define a
-   * budget plan and rules to execute as we track spend against that plan.
-   * </pre>
-   */
+  /** */
   public static final class BudgetServiceBlockingStub
       extends io.grpc.stub.AbstractBlockingStub<BudgetServiceBlockingStub> {
     private BudgetServiceBlockingStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -566,88 +452,38 @@ public final class BudgetServiceGrpc {
       return new BudgetServiceBlockingStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a new budget. See
-     * [Quotas and limits](https://cloud.google.com/billing/quotas)
-     * for more information on the limits of the number of budgets you can create.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.billing.budgets.v1.Budget createBudget(
         com.google.cloud.billing.budgets.v1.CreateBudgetRequest request) {
       return blockingUnaryCall(getChannel(), getCreateBudgetMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a budget and returns the updated budget.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. Budget fields that are not exposed in
-     * this API will not be changed by this method.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.billing.budgets.v1.Budget updateBudget(
         com.google.cloud.billing.budgets.v1.UpdateBudgetRequest request) {
       return blockingUnaryCall(getChannel(), getUpdateBudgetMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Returns a budget.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. When reading from the API, you will not
-     * see these fields in the return value, though they may have been set
-     * in the Cloud Console.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.billing.budgets.v1.Budget getBudget(
         com.google.cloud.billing.budgets.v1.GetBudgetRequest request) {
       return blockingUnaryCall(getChannel(), getGetBudgetMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Returns a list of budgets for a billing account.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. When reading from the API, you will not
-     * see these fields in the return value, though they may have been set
-     * in the Cloud Console.
-     * </pre>
-     */
+    /** */
     public com.google.cloud.billing.budgets.v1.ListBudgetsResponse listBudgets(
         com.google.cloud.billing.budgets.v1.ListBudgetsRequest request) {
       return blockingUnaryCall(getChannel(), getListBudgetsMethod(), getCallOptions(), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes a budget. Returns successfully if already deleted.
-     * </pre>
-     */
+    /** */
     public com.google.protobuf.Empty deleteBudget(
         com.google.cloud.billing.budgets.v1.DeleteBudgetRequest request) {
       return blockingUnaryCall(getChannel(), getDeleteBudgetMethod(), getCallOptions(), request);
     }
   }
 
-  /**
-   *
-   *
-   * <pre>
-   * BudgetService stores Cloud Billing budgets, which define a
-   * budget plan and rules to execute as we track spend against that plan.
-   * </pre>
-   */
+  /** */
   public static final class BudgetServiceFutureStub
       extends io.grpc.stub.AbstractFutureStub<BudgetServiceFutureStub> {
     private BudgetServiceFutureStub(io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
@@ -660,15 +496,7 @@ public final class BudgetServiceGrpc {
       return new BudgetServiceFutureStub(channel, callOptions);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Creates a new budget. See
-     * [Quotas and limits](https://cloud.google.com/billing/quotas)
-     * for more information on the limits of the number of budgets you can create.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.billing.budgets.v1.Budget>
         createBudget(com.google.cloud.billing.budgets.v1.CreateBudgetRequest request) {
@@ -676,16 +504,7 @@ public final class BudgetServiceGrpc {
           getChannel().newCall(getCreateBudgetMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Updates a budget and returns the updated budget.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. Budget fields that are not exposed in
-     * this API will not be changed by this method.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.billing.budgets.v1.Budget>
         updateBudget(com.google.cloud.billing.budgets.v1.UpdateBudgetRequest request) {
@@ -693,34 +512,14 @@ public final class BudgetServiceGrpc {
           getChannel().newCall(getUpdateBudgetMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Returns a budget.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. When reading from the API, you will not
-     * see these fields in the return value, though they may have been set
-     * in the Cloud Console.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.billing.budgets.v1.Budget>
         getBudget(com.google.cloud.billing.budgets.v1.GetBudgetRequest request) {
       return futureUnaryCall(getChannel().newCall(getGetBudgetMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Returns a list of budgets for a billing account.
-     * WARNING: There are some fields exposed on the Google Cloud Console that
-     * aren't available on this API. When reading from the API, you will not
-     * see these fields in the return value, though they may have been set
-     * in the Cloud Console.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<
             com.google.cloud.billing.budgets.v1.ListBudgetsResponse>
         listBudgets(com.google.cloud.billing.budgets.v1.ListBudgetsRequest request) {
@@ -728,13 +527,7 @@ public final class BudgetServiceGrpc {
           getChannel().newCall(getListBudgetsMethod(), getCallOptions()), request);
     }
 
-    /**
-     *
-     *
-     * <pre>
-     * Deletes a budget. Returns successfully if already deleted.
-     * </pre>
-     */
+    /** */
     public com.google.common.util.concurrent.ListenableFuture<com.google.protobuf.Empty>
         deleteBudget(com.google.cloud.billing.budgets.v1.DeleteBudgetRequest request) {
       return futureUnaryCall(
