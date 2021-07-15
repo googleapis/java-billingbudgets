@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.3](https://www.github.com/googleapis/java-billingbudgets/compare/v1.2.2...v1.2.3) (2021-07-15)
+
+
+### Bug Fixes
+
+* owlbot post-processor should generate README ([#1154](https://www.github.com/googleapis/java-billingbudgets/issues/1154)) ([#519](https://www.github.com/googleapis/java-billingbudgets/issues/519)) ([786928a](https://www.github.com/googleapis/java-billingbudgets/commit/786928aa33aef34f326abf5093ec33b6e13e917f)), closes [#1146](https://www.github.com/googleapis/java-billingbudgets/issues/1146) [#1147](https://www.github.com/googleapis/java-billingbudgets/issues/1147)
+
 ### [1.2.2](https://www.github.com/googleapis/java-billingbudgets/compare/v1.2.1...v1.2.2) (2021-07-01)
 
 
