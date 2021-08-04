@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/googleapis/java-billingbudgets/compare/v1.2.2...v1.3.0) (2021-08-04)
+
+
+### Features
+
+* configure initial sp version ([#544](https://www.github.com/googleapis/java-billingbudgets/issues/544)) ([aa05f31](https://www.github.com/googleapis/java-billingbudgets/commit/aa05f31fd92094a758b85671f704cf117545fc9f))
+
 ### [1.2.2](https://www.github.com/googleapis/java-billingbudgets/compare/v1.2.1...v1.2.2) (2021-07-01)
 
 
