@@ -69,8 +69,7 @@ public final class BudgetModelProto {
   static {
     java.lang.String[] descriptorData = {
       "\n"
-          + "2google/cloud/billing/budgets/v1/budget_model.proto\022\037google.cloud.billing.budge"
-          + "ts.v1\032\037google/api/field_behavior.proto\032\031google/api/resource.proto\032\034google/protobuf/struct.proto\032\026google/type/date.proto\032\027google/type/money.proto\"\317\003\n"
+          + "2google/cloud/billing/budgets/v1/budget_model.proto\022\037google.cloud.billing.budgets.v1\032\037google/api/field_behavior.proto\032\031google/api/resource.proto\032\034google/protobuf/struct.proto\032\026google/type/date.proto\032\027google/type/money.proto\"\317\003\n"
           + "\006Budget\022\021\n"
           + "\004name\030\001 \001(\tB\003\340A\003\022\024\n"
           + "\014display_name\030\002 \001(\t\022C\n\r"
