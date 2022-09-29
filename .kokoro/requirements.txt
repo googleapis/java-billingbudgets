@@ -256,7 +256,7 @@ keyring==23.4.1 \
     # via
     #   -r requirements.in
     #   gcp-releasetool
-markupsafe==2.1.1 \
+markupsafe==2.0.1 \
     --hash=sha256:01a9b8ea66f1658938f65b93a85ebe8bc016e6769611be228d797c9d998dd298 \
     --hash=sha256:023cb26ec21ece8dc3907c0e8320058b2e0cb3c55cf9564da612bc325bed5e64 \
     --hash=sha256:0446679737af14f45767963a1a9ef7620189912317d095f2d9ffa183a4d25d2b \
