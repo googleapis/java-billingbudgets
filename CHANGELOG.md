@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.6](https://github.com/googleapis/java-billingbudgets/compare/v2.3.5...v2.3.6) (2022-10-04)
+
+
+### Bug Fixes
+
+* update protobuf to v3.21.7 ([eb2756b](https://github.com/googleapis/java-billingbudgets/commit/eb2756b0c3b5f03b7cbc18a733941bf3504185fc))
+
 ## [2.3.5](https://github.com/googleapis/java-billingbudgets/compare/v2.3.4...v2.3.5) (2022-10-03)
 
 
